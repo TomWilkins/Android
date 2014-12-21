@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SwitchingScreens</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="enter_your_name">Enter Your Name:</string>
+    <string name="enter">Enter</string>
+    <string name="calling_activity_message">The Calling Activity was</string>
+    <string name="go_get_the_name_textview">Go Get The Name</string>
+    <string name="users_name_send_back">The users name was</string>
+
+</resources>
