@@ -1,0 +1,74 @@
+<resources>
+
+    <!--
+        Theme.Light : Android 3.0 +
+        Theme.Holo.Light : Android API 11
+        Theme.Holo.Light.DarkActionBar : API 14
+    -->
+
+    <!-- Base application theme. -->
+    <style name="AppBaseTheme" parent="android:Theme.Holo.Light.DarkActionBar">
+        <!-- API 14+ -->
+
+        <item name="android:windowBackground">#ffaeffff</item>
+
+        <item name="android:editTextColor">#ffff0001</item>
+        <item name="android:textColorPrimary">#ffff0001</item>
+        <item name="android:textColorSecondary">#ffff0001</item>
+        <item name="android:textColorTertiary">#ffff0001</item>
+        <item name="android:textColorPrimaryInverse">#ffff0001</item>
+        <item name="android:textColorSecondaryInverse">#ffff0001</item>
+        <item name="android:textColorTertiaryInverse">#ffff0001</item>
+
+        <!-- Change the font family with API 16+
+            android:fontFamily="sans-serif"
+            android:fontFamily="sans-serif-light"
+            android:fontFamily="sans-serif-condensed"
+            android:fontFamily="sans-serif-thin" -->
+        <item name="android:fontFamily">sans-serif</item>
+
+        <item name="android:textStyle">bold</item>
+
+        <!-- More font stuff from URL above
+35	        android:fontFamily   Font family (named by string) for the text.
+36	        android:shadowColor  Place a shadow of the specified color behind the text.
+37	        android:shadowDx     Horizontal offset of the shadow.
+38	        android:shadowDy     Vertical offset of the shadow.
+39	        android:shadowRadius     Radius of the shadow.
+40	        android:textAllCaps  Present the text in ALL CAPS.
+41	        android:textColor    Text color.
+42	        android:textColorHighlight   Color of the text selection highlight.
+43	        android:textColorHint    Color of the hint text.
+44	        android:textColorLink    Color of the links.
+45	        android:textSize     Size of the text.
+46	        android:textStyle    Style (bold, italic, bolditalic) for the text.
+47	        android:typeface     Typeface (normal, sans, serif, monospace) for the text.
+48	        -->
+    </style>
+
+    <!-- personalise widgets by applying styles to them in the .xml file -->
+    <style name="text_view">
+        <item name="android:textSize">30sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!-- inherited and overwritten style -->
+    <style name="edit_text" parent="text_view">
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="text_view.2">
+        <item name="android:padding">30dp</item>
+    </style>
+
+    <style name="text_view.2.3">
+        <item name="android:layout_marginTop">15dp</item>
+    </style>
+
+    <!-- automatically applied -->
+    <style name="TextView" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">55sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+</resources>

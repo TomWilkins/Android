@@ -1,0 +1,25 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:baselineAligned="false"
+    android:animateLayoutChanges="true"
+    tools:context=".MainActivity">
+
+    <fragment
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/main_panel"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        class="com.example.tomwilkins.multipanefragment.MainPanelFragment"/>
+
+    <fragment
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/side_panel"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        class="com.example.tomwilkins.multipanefragment.SidePanelFragment"/>
+
+</RelativeLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Android Fragments</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="portrait_mode_text_view">In portrait fragment</string>
+    <string name="landscape_mode_text_view">In landscape fragment</string>
+
+</resources>

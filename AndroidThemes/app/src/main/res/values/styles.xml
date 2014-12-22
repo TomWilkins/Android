@@ -1,0 +1,18 @@
+<resources>
+
+    <!--
+        Theme.Light : Android 3.0 +
+        Theme.Holo.Light : Android API 11
+        Theme.Holo.Light.DarkActionBar : API 14
+    -->
+
+    <!-- Base application theme. -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!-- API 10 < -->
+    </style>
+
+    <style name="AppTheme" parent="AppBaseTheme">
+
+    </style>
+
+</resources>
