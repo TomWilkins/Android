@@ -79,7 +79,7 @@ public class MainActivity extends Activity {
             HttpPost httpPost = new HttpPost("http://newjustin.com/translateit.php?action=translations&english_words="
                     + wordsToTranslate);
 
-            httpPost.setHeader("Content-Type", "application/json");
+            httpPost.setHeader("Content-type", "application/json");
 
             InputStream inputStream = null;
 

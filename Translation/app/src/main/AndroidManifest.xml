@@ -3,7 +3,7 @@
     package="com.example.tomwilkins.translation" >
 
     <!-- allows the app to use the internet -->
-    <uses-permission android:name="android.permission.internet"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
 
     <application
         android:allowBackup="true"
